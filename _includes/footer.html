@@ -1,0 +1,28 @@
+<footer role="contentinfo" class='post-footer'>
+    <div class="inner">
+        <div class="vcard">
+          <a href="{{ site.baseurl }}/feed.xml" id="btn_feed" class="btn" title="Feed" target="_blank">
+                <span aria-hidden="true" data-icon=")"></span>
+                <strong>Feed</strong>
+            </a>
+
+            {% if site.logo %}
+            <a href="{{ site.baseurl }}/" class="photo circle">
+              <span style="background-image: url('{{ site.baseurl }}/assets/images/{{ site.logo }}');">
+                <img src="{{ site.baseurl }}/assets/images/{{ site.logo }}" alt="{{ site.title }}"/>
+              </span>
+            </a>
+            {% endif %}
+
+            <div class="details">
+                <h4><a href="{{ site.baseurl }}/" class="url n">{{ site.title }}</a></h4>
+                <span>{{ site.description }}</span>
+            </div>
+        </div>
+        <div id="user_bio">
+            <div class="inner">
+                <span>Based on <a target="_blank" href="https://vormwald.github.io/joon">Roon theme</a>.</span>
+            </div>
+        </div>
+    </div>
+</footer>
