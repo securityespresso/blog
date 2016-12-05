@@ -103,7 +103,7 @@ SELECT * FROM articles
 WHERE id = '-1 UNION SELECT version(), database()'
 ```
 
-You can try this example live (click <small></small> in the upper right corner):
+You can try this example live (click ▶ in the upper right corner):
 
 <!-- [![Test Image]({{ site.baseurl }}/content/images/trylive.png)][example] -->
 
