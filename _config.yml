@@ -15,6 +15,9 @@ paginate: 5
 markdown: kramdown
 highlighter: rouge
 
+# Server Config options
+livereload: true     # You no longer need to include --livereload
+
 gems:
   - jekyll-sitemap
   - jekyll-paginate
