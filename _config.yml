@@ -14,6 +14,8 @@ paginate: 5
 # Build settings
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
 
 # Server Config options
 livereload: true     # You no longer need to include --livereload
