@@ -1100,14 +1100,6 @@ body>footer .photo span, .post-footer .photo span {
     background-size: cover;
 }
 
-body>footer .photo.circle, .post-footer .photo.circle {
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-    border-radius: 50px;
-    border: 1px solid rgba(33, 39, 45, 0.17);
-}
 body>footer .photo.circle span, .post-footer .photo.circle span {
     top: -1px;
     right: -1px;
@@ -1158,7 +1150,6 @@ body>footer #user_bio .inner, .post-footer #user_bio .inner {
     width: 62px;
     height: 62px;
     background-color: #fff;
-    border: 1px solid rgba(33, 39, 45, 0.17);
     -webkit-border-radius: 60px;
     -moz-border-radius: 60px;
     -ms-border-radius: 60px;
