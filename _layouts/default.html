@@ -7,12 +7,12 @@
 
     {{ content }}
 
-    {{ if site.logo}}
+    {% if false and site.logo %}
     <a href="{{ site.baseurl | prepend: site.url }}" id="blog_badge">
             <span style="background-image:
-            url('{{ site.baseurl }}/assets/images/{{ site.logo }}');">{{ site.name }}</span>
+            url('{{ site.baseurl }}/assets/images/{{ site.logo_square }}');">{{ site.name }}</span>
         </a>
-    {{/if}}
+    {% endif %}
 
     <script>
       $(function() {
