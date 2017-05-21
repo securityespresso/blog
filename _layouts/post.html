@@ -29,8 +29,8 @@ body_class: post-template
             <div id="fb-elems">
                 <div id="fb-root"></div>
                 <script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1584127518505976";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
-                <div class="fb-share-button" data-href="{{ site.url }}{{ page.url prepend: site.baseurl }}" data-layout="button_count" data-size="large" data-mobile-iframe="true">
-                  <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url prepend: site.baseurl }}&amp;src=sdkpreparse">Share</a></div>
+                <div class="fb-share-button" data-href="{{ site.url }}{{ page.url | prepend: site.baseurl }}" data-layout="button_count" data-size="large" data-mobile-iframe="true">
+                  <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | prepend: site.baseurl }}&amp;src=sdkpreparse">Share</a></div>
             </div>
             <div id="tw-elems">
                 <a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true" data-size="large">Tweet</a>
@@ -43,7 +43,7 @@ body_class: post-template
         <span aria-hidden="true" data-icon="S"></span>
         <strong>Share</strong>
       </a>
-      <a href="http://twitter.com/share?text={{ page.title | cgi_escape }}&url={{ site.url }}{{ page.url prepend: site.baseurl }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" id="btn_comment" class="btn" target="_blank">
+      <a href="http://twitter.com/share?text={{ page.title | cgi_escape }}&url={{ site.url }}{{ page.url | prepend: site.baseurl }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" id="btn_comment" class="btn" target="_blank">
         <span aria-hidden="true" data-icon="C"></span> Comment on Twitter
       </a>
       {% endcomment %}
@@ -74,7 +74,7 @@ body_class: post-template
                 </div>
 
                 <div id="pinit-btn">
-                    <a href="//pinterest.com/pin/create/button/?url={{ page.url |prepend: site.baseurl }}&amp;description={{ page.title | xml_encode }}-{{ site.title | xml_encode }} " data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png"></a>
+                    <a href="//pinterest.com/pin/create/button/?url={{ page.url | prepend: site.baseurl }}&amp;description={{ page.title | xml_encode }}-{{ site.title | xml_encode }} " data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png"></a>
                     <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
                 </div>
 
