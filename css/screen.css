@@ -1150,11 +1150,11 @@ body>footer #user_bio .inner, .post-footer #user_bio .inner {
     width: 62px;
     height: 62px;
     background-color: #fff;
-    -webkit-border-radius: 60px;
-    -moz-border-radius: 60px;
-    -ms-border-radius: 60px;
-    -o-border-radius: 60px;
-    border-radius: 60px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
     z-index: 3;
     -webkit-transition-property: all 0.2s;
     -moz-transition-property: all 0.2s;
