@@ -9,7 +9,7 @@ permalink: events.html
 All the Security Espresso meetups and events are listed below.
 
 ###### 4th of May, 2017
-Security Espresso 0x05
+[Security Espresso 0x05](http://securityespresso.org/security-espresso-0x05.html)
 
 ###### 19th of April, 2017
 [Security Espresso 0x04](http://securityespresso.org/security-espresso-0x04.html)
