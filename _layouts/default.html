@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 
+  {% if page and page.css %}
+    <link rel='stylesheet' type='text/css' href='css/{{ page.css }}.css' />
+  {% endif %}
+
   {% include head.html %}
 
   <body class="{{ page.body_class }}">
