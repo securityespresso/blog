@@ -3,6 +3,8 @@ layout: page
 title: Events
 permalink: events.html
 published: true
+in_header: true
+emoji: ☕
 ---
 
 # Security Espresso events

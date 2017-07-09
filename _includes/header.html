@@ -11,9 +11,9 @@
     <nav class="site-nav">
     <div class="trigger">
     {% for page in site.pages %}
-    {% if page.title == "Events" %}
-    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{☕} Events</a>
-    {% endif %}
+      {% if page.in_header %}
+        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{% raw %}{{% endraw %}{{ page.emoji }}{% raw %}}{% endraw %} {{ page.title }} &nbsp</a>
+      {% endif %}
     {% endfor %}
     </div>
     </nav>
