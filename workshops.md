@@ -2,9 +2,7 @@
 layout: page
 title: Workshops
 permalink: workshops.html
-published: true
+published: false
 in_header: true
 emoji: 💻
 ---
-
-# Security Espresso workshops

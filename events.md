@@ -7,8 +7,6 @@ in_header: true
 emoji: ☕
 ---
 
-# Security Espresso events
-
 All the Security Espresso meetups and events are listed below.
 
 ## [Security Espresso 0x06](http://securityespresso.org/security-espresso-0x06.html)
