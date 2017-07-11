@@ -3,7 +3,7 @@ layout: page
 title: Call for Papers
 permalink: call-for-papers.html
 published: true
-in_header: false
+in_header: true
 emoji: 📄
 ---
 The Security Espresso community is now **accepting submissions for talks**.
