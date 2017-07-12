@@ -26,10 +26,14 @@ You will be guided through hands-on exercises throughout this course. Participat
 
 <div class="expandable">
     <div class="section-header">HTTP Basics</div>
-    <div class="section-content">Content here</div>
+    <div class="section-content">This section will touch on core concepts in HTTP. You will learn the structure of a HTTP packet, and how the communication between a client and a server is modeled.</div>
 </div>
 <div class="expandable">
     <div class="section-header">HTTPS</div>
+    <div class="section-content">Moving onwards from unsecured HTTP connections, this section will dive into securing the previously-discussed communication.</div>
+</div>
+<div class="expandable">
+    <div class="section-header">Attack types</div>
     <div class="section-content">Content here</div>
 </div>
 <div class="expandable">
@@ -37,23 +41,20 @@ You will be guided through hands-on exercises throughout this course. Participat
     <div class="section-content">Content here</div>
 </div>
 <div class="expandable">
-    <div class="section-header">Headers and headers" vulnerabilities</div>
+    <div class="section-header">Headers</div>
     <div class="section-content">Content here</div>
 </div>
 <div class="expandable">
-    <div class="section-header">Session management</div>
+    <div class="section-header">OWASP top 10</div>
+    <div class="section-content">Content here</div>
+</div>
+<div class="expandable">
+    <div class="section-header">Authentication & session management</div>
     <div class="section-content">Content here</div>
 </div>
 <div class="expandable">
     <div class="section-header">Application layer vulnerabilities</div>
-    <div class="section-content">
-        Content here<br>
-        Content here<br>
-        Content here<br>
-        Content here<br>
-        Content here<br>
-        Content here
-    </div>
+    <div class="section-content">Content here</div>
 </div>
 
 ## Self-assessment

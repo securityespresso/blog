@@ -24,24 +24,19 @@ article table tbody tr:first-child td {
   border-top: 1px solid #ededee;
 }
 
-.expandable {
+.section-header {
+  color: white;
+  text-align: left;
+  text-indent: 30px;
   display: block;
 	height: 30px;
 	width: 700px;
 	background: #d35c5c;
 }
 
-.section-header {
-  color: white;
-  text-align: left;
-  text-indent: 30px;
-}
-
 .section-content {
+  display: block;
   text-align: left;
   text-indent: 30px;
-}
-
-.hidden {
   display: none;
 }
