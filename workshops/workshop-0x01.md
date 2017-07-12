@@ -7,7 +7,11 @@ css: workshops
 
 ## Web Security Fundamentals
 
-**About this course**: This course covers the essential information about how security in the context of the Web works.
+**About this course**: This is the course you want to take if you want to understand security on the web!
+
+This course is designed to give you a solid understanding of the fundamental technologies that are at play in web applications. The journey of securing and defending must start with having a clear mental picture of how the web works. At the beginning of this course, you will dive into the protocols that power the web. Afterwards, you will focus on some of the most common vulnerabilities, which are behind some of the most effective security attacks and breaches.
+
+You will be guided through hands-on exercises throughout this course. Participation is key! The information provided to you by the mentor of this course will be applied to realistic attack and defense scenarios, using technologies which are ubiquitous in the security operations scene.
 
 <div class="container">
   <div class="flex-item"><div class="circleimg" style="background-image: url(/assets/images/anatol.jpg)"></div></div>
