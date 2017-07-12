@@ -24,6 +24,37 @@ You will be guided through hands-on exercises throughout this course. Participat
 
 ## Syllabus
 
+<div class='expandable-container'>
+<div class='header'>HTTP Basics</div>
+<div class='content'>Content here</div>
+</div>
+<div class='expandable-container'>
+<div class='header'>HTTPS</div>
+<div class='content'>Content here</div>
+</div>
+<div class='expandable-container'>
+<div class='header'>Intercepting proxies & other tools</div>
+<div class='content'>Content here</div>
+</div>
+<div class='expandable-container'>
+<div class='header'>Headers and headers' vulnerabilities</div>
+<div class='content'>Content here</div>
+</div>
+<div class='expandable-container'>
+<div class='header'>Session management</div>
+<div class='content'>Content here</div>
+</div>
+<div class='expandable-container'>
+<div class='header'>Application layer vulnerabilities</div>
+<div class='content'>Content here<br>
+Content here<br>
+Content here<br>
+Content here<br>
+Content here<br>
+Content here</div>
+</div>
+
+
 ## Self-assessment
 
 ## Requirements
@@ -36,3 +67,15 @@ You will be guided through hands-on exercises throughout this course. Participat
 
 <b>What professionals is this course targeted at?</b><br>
 We believe that a working knowledge of how Web Security works is useful for any person working either as a programmer or in a security-focused profession. Even if you do not build websites or web applications, the knowledge related to how both of these can be exploited can come in handy, for example, in bug bounties or even in testing whether your most frequently used websites are vulnerable to the types of security attacks covered in this course.
+
+<script language="javascript" type="text/javascript">
+document.querySelectorAll('.expandable-container').forEach(container => {
+  const header = container.querySelector('.header')
+  const content = container.querySelector('.content')
+  content.classList.add('hidden')
+  header.addEventListener('click', function(event) {
+    event.preventDefault()
+    content.classList.toggle('hidden')
+  }, false)
+})
+</script>
