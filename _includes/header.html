@@ -12,7 +12,7 @@
     <div class="trigger">
     {% for page in site.pages %}
       {% if page.in_header %}
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{% raw %}{{% endraw %}{{ page.emoji }}{% raw %}}{% endraw %} {{ page.title }} &nbsp</a>
+        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{% raw %}{{% endraw %}{{ page.emoji }}{% raw %}}{% endraw %} {{ page.title }} &nbsp;</a>
       {% endif %}
     {% endfor %}
     </div>
