@@ -26,35 +26,35 @@ You will be guided through hands-on exercises throughout this course. Participat
 
 <div class="expandable">
     <div class="section-header">HTTP Basics</div>
-    <div class="section-content">This section will touch on core concepts in HTTP. You will learn the structure of a HTTP packet, and how the communication between a client and a server is modeled.</div>
+    <div class="section-content">This section will touch on core concepts in HTTP. You will learn the structure of a HTTP packet, and how the communication between a client and a server is modeled. Understanding the anatomy of a HTTP packet exchange is crucial for working with web applications.</div>
 </div>
 <div class="expandable">
     <div class="section-header">HTTPS</div>
-    <div class="section-content">Moving onwards from unsecured HTTP connections, this section will dive into securing the previously-discussed communication.</div>
+    <div class="section-content">Moving onwards from unsecured HTTP connections, this section will dive into securing the previously-discussed communication. You will go through the protocol specifications for SSL/TLS, which will provide you with a good understanding of how the protocol we use today has evolved. You will also learn about certificates, how to work with them, and about the vulnerabilities that are most common in this area.</div>
 </div>
 <div class="expandable">
     <div class="section-header">Attack types</div>
-    <div class="section-content">Content here</div>
+    <div class="section-content"> This section will categorize attacks that target websites and web applications. Depending on which vulnerabilities are exploited, these attacks may focus exclusively on the server, on the client, or they may string together several approaches. It's important to be able to identify what the weak points are on either end, in order to make the most of learning how to secure them.</div>
 </div>
 <div class="expandable">
     <div class="section-header">Intercepting proxies &amp; other tools</div>
-    <div class="section-content">Content here</div>
+    <div class="section-content">Any mistakes in the implementation or deployment of HTTS can be exploited. In this section, you will learn about how malicious entities can impersonate either of the actors in a HTTPS connection in order to gain access to the information being relayed. Understanding the reasons why these attacks can success is going to help you make more secure deployments, when working with HTTPS.</div>
 </div>
 <div class="expandable">
     <div class="section-header">Headers</div>
-    <div class="section-content">Content here</div>
+    <div class="section-content">In this section, you will learn the meaning and semantics of some of the most common HTTP headers. These headers model the constraints on a HTTP packet exchange, and understanding how they can influence the flow of data is crucial both for building secure web applications, but also for interacting with other applications on the web, be it as a user or through scripts.</div>
 </div>
 <div class="expandable">
     <div class="section-header">OWASP top 10</div>
-    <div class="section-content">Content here</div>
+    <div class="section-content">The Open Web Application Security Project (OWASP) is an international organization dedicated to enhancing the security of web applications. As part of its mission, OWASP sponsors numerous security-related projects, one of the most popular being the Top 10 Project. This project publishes a list of what it considers the current top 10 web application security risks worldwide. In this section, we will go through this list, the most recent version of it being from 2013.</div>
 </div>
 <div class="expandable">
     <div class="section-header">Authentication & session management</div>
-    <div class="section-content">Content here</div>
+    <div class="section-content">Proving identity on the web has turned out to be a very hard problem. In this section, you will lean how both the server and the client can prove their identity to each other during a HTTPS session, as well as how this process can go wrong or can be exploited from the outside.</div>
 </div>
 <div class="expandable">
     <div class="section-header">Application layer vulnerabilities</div>
-    <div class="section-content">Content here</div>
+    <div class="section-content">In the final section of this workshop, you will go through some of the most important vulnerabilities of websites and web applications, beyond session management and authentication. You will understand how improper implementation of the workflow of a web application can be the difference between a safe deploy and a data breach. With this information in hand, you can strengthen and protect your web deployments.</div>
 </div>
 
 ## Self-assessment
