@@ -30,7 +30,6 @@ article table tbody tr:first-child td {
   text-indent: 30px;
   display: block;
 	height: 30px;
-	width: 700px;
 	background: #d35c5c;
 }
 
@@ -39,4 +38,9 @@ article table tbody tr:first-child td {
   text-align: left;
   text-indent: 30px;
   display: none;
+}
+
+article .text .expandable {
+  margin-bottom: 10px;
+  padding: 0px 0px 0px 0px;
 }

@@ -1,14 +1,11 @@
 ---
 layout: page
-title: Workshop 0x01
-permalink: workshop-0x01.html
+title: We Security Fundamentals Workshop
+permalink: web-security-fundamentals-workshop.html
 css: workshops
 ---
 
-## Web Security Fundamentals
-
-**About this course**: This is the course you want to take if you want to understand security on the web!
-
+**About this course**:<br>
 This course is designed to give you a solid understanding of both the <b>threat models</b> of web-based attacks and also the knowledge to <b>secure your own web applications</b>. The journey of securing and defending must start with having a clear mental picture of <b>how the web works</b>. At the beginning of this course, you will dive into the protocols that power the web. Afterwards, you will focus on some of the most common vulnerabilities, which are behind some of the most effective security attacks and breaches.
 
 You will be guided through hands-on exercises throughout this course. Participation is key! This course is designed to create and encourage the hacker mindset.
@@ -67,5 +64,10 @@ You will be guided through hands-on exercises throughout this course. Participat
 
 ## FAQs
 
-<b>What professionals is this course targeted at?</b><br>
+<b>Who should attend this course?</b><br>
 We believe that a working knowledge of how Web Security works is useful for any person working either as a programmer or in a security-focused profession. Even if you do not build websites or web applications, the knowledge related to how both of these can be exploited can come in handy, for example, in bug bounties or even in testing whether your most frequently used websites are vulnerable to the types of security attacks covered in this course.
+
+<b>What will you receive during this course?</b><br>
+* An Ubuntu Linux virtual machine containing pre-installed security tools;
+* Sample applications / scripts;
+* A .pdf containing all the materials used throughout the course;
