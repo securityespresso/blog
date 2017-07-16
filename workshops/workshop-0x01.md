@@ -9,9 +9,9 @@ css: workshops
 
 **About this course**: This is the course you want to take if you want to understand security on the web!
 
-This course is designed to give you a solid understanding of the fundamental technologies that are at play in web applications. The journey of securing and defending must start with having a clear mental picture of how the web works. At the beginning of this course, you will dive into the protocols that power the web. Afterwards, you will focus on some of the most common vulnerabilities, which are behind some of the most effective security attacks and breaches.
+This course is designed to give you a solid understanding of both the <b>threat models</b> of web-based attacks and also the knowledge to <b>secure your own web applications</b>. The journey of securing and defending must start with having a clear mental picture of <b>how the web works</b>. At the beginning of this course, you will dive into the protocols that power the web. Afterwards, you will focus on some of the most common vulnerabilities, which are behind some of the most effective security attacks and breaches.
 
-You will be guided through hands-on exercises throughout this course. Participation is key! The information provided to you by the mentor of this course will be applied to realistic attack and defense scenarios, using technologies which are ubiquitous in the security operations scene.
+You will be guided through hands-on exercises throughout this course. Participation is key! This course is designed to create and encourage the hacker mindset.
 
 <div class="container">
   <div class="flex-item"><div class="circleimg" style="background-image: url(/assets/images/anatol.jpg)"></div></div>
@@ -38,7 +38,7 @@ You will be guided through hands-on exercises throughout this course. Participat
 </div>
 <div class="expandable">
     <div class="section-header">Intercepting proxies &amp; other tools</div>
-    <div class="section-content">Any mistakes in the implementation or deployment of HTTS can be exploited. In this section, you will learn about how malicious entities can impersonate either of the actors in a HTTPS connection in order to gain access to the information being relayed. Understanding the reasons why these attacks can success is going to help you make more secure deployments, when working with HTTPS.</div>
+    <div class="section-content">In this section we will use existing tools to intercept packets sent between a client and a server. You will learn how to set up and use such tools, in a way similar to how an attacker would make use of them. Doing hand-on exercises such as this, where you attempt to attack a web application, teach you what kinds of pitfalls to avoid when securing your own deployment.</div>
 </div>
 <div class="expandable">
     <div class="section-header">Headers</div>
