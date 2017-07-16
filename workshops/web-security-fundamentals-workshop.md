@@ -1,6 +1,6 @@
 ---
 layout: page
-title: We Security Fundamentals Workshop
+title: Web Security Fundamentals Workshop
 permalink: web-security-fundamentals-workshop.html
 css: workshops
 ---

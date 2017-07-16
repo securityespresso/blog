@@ -11,13 +11,13 @@
 }
 
 article .text .circleimg {
-    display: block;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: 0 20px 0 0;
-    background-position: center;
-    background-size: cover;
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 20px 0 0;
+  background-position: center;
+  background-size: cover;
 }
 
 article table tbody tr:first-child td {
@@ -25,22 +25,23 @@ article table tbody tr:first-child td {
 }
 
 .section-header {
-  color: white;
   text-align: left;
-  text-indent: 30px;
+  padding-left: 30px;
+  margin-bottom: 15px;
   display: block;
-	height: 30px;
-	background: #d35c5c;
+  height: 30px;
+  background: #eaeaea;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .section-content {
-  display: block;
   text-align: left;
-  text-indent: 30px;
+  margin: 0 30px;
   display: none;
 }
 
 article .text .expandable {
-  margin-bottom: 10px;
-  padding: 0px 0px 0px 0px;
+  margin: 10px 0 0;
+  padding: 0;
 }
