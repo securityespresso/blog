@@ -55,6 +55,91 @@ You will be guided through hands-on exercises throughout this course. Participat
 </div>
 
 ## Self-assessment
+This course requires general familiarity with core web technologies such as the Internet, logins, access, and HTML. Reading knowledge of JavaScript, SQL, and programming logic is helpful but not required. Some knowledge of protocols especially TCP/IP will be helpful but not required.
+
+Which of the following Communication Protocols does not rely on TCP?
+XMPP
+MQTT
+BitTorrent
+HTTP
+
+An application that reads and responds to HTTP requests from a user is commonly known as?
+HTTP Parsers
+HTML Parser
+Web Browser
+Web Server
+
+What does CRUD operations stand for?
+Create, Release, Unify, Destroy.
+Common, Resilient, Uninterrupted, Definitive.
+Consistent, Reliable, Universal, Dependable.
+Create, Read, Update, Delete.
+
+Which one of these security key concepts is equivalent to Privacy?
+confidentiality
+availability
+integrity
+access control
+
+A sender must not be able to deny sending a message that he or she, in fact, did send, is known as:
+Message Integrity
+Message Sending
+Message Confidentiality
+Message Nonrepudiation
+
+What is the difference between Message Authentication Code (MAC) and digital signature?
+digital signature is faster than MAC
+both are the same
+MAC provides confidentiality but digital signature provides integrity
+MAC uses symmetric algorithm but a digital signature use public key encryption
+
+Access controls can be defined as:
+Proving a user’s identity
+Having the ability to do something with a computer resource
+Having the permission to use a resource
+
+Authorization can be defined as
+Having permission to use a resource
+Proving a user’s identity
+Having the ability to do something with a resource
+
+Authentication can be defined as
+Proving a user’s identity
+Having the ability to do something with a resource
+Having permission to use a resource
+
+Accountability can be defined as
+Having permission to use a resource
+Tracking a user’s actions while in a system
+Firing a user who does the wrong thing
+
+
+Confidentiality can be defined as
+Ensuring that information is not disclosed to unauthorized users
+Ensuring that information has not been improperly modified or destroyed
+Ensuring that information is accessible
+
+
+Integrity can be defined as
+Ensuring that information is not disclosed to unauthorized users
+Ensuring that information is accessible
+Ensuring that information has not been improperly modified or destroyed
+
+Availability can be defined as
+Ensuring that information is not disclosed to unauthorized users
+Ensuring that information has not been improperly modified or destroyed
+Ensuring that information is accessible
+
+Cryptographic system in which both sender and receiver share a common key
+Asymmetric
+Symmetric
+
+Prevents an individual from claiming he/she did not send a message
+Electronic signature
+Asymmetric cryptography
+Message digest
+Symmetric cryptography
+
 
 ## Requirements
 
