@@ -128,7 +128,7 @@ Which statements about this snippet are TRUE?
 This course requires general familiarity with web technologies such as HTML, JavaScript, SQL, and programming logic. Some knowledge of protocols especially TCP/IP will be helpful but not required.
 
 Attendance to this course also requires:
-* A laptop, running any OS with a minimum of 2 GB RAM
+* A laptop, running any OS with a minimum of 4 GB RAM
 * Admin rights enabled on the user which is going to be used throughout the hackathon
 * VirtualBox or VMWare Workstation
 
