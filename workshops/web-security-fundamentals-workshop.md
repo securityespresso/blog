@@ -5,19 +5,20 @@ permalink: web-security-fundamentals-workshop.html
 css: workshops
 ---
 
-**About this course**:<br>
-This course is designed to give you a solid understanding of both the <b>threat models</b> of web-based attacks and also the knowledge to <b>secure your own web applications</b>. The journey of securing and defending must start with having a clear mental picture of <b>how the web works</b>. At the beginning of this course, you will dive into the protocols that power the web. Afterwards, you will focus on some of the most common vulnerabilities, which are behind some of the most effective security attacks and breaches.
+## About this course
+This course is designed to give you a solid understanding of both the **threat models** of web-based attacks and also the knowledge to **secure your own web applications**. The journey of securing and defending must start with having a clear mental picture of **how the web works**. At the beginning of this course, you will dive into the basics of HTTP - the protocol that powers the web. Afterwards, we will focus on some of the most common vulnerabilities, understanding how to exploit them as well as learning how to properly protect your apps against them.
 
-You will be guided through hands-on exercises throughout this course. Participation is key! This course is designed to create and encourage the hacker mindset.
+This course is designed to create and develop **the hacker mindset**. Participation is key! Throughout this course you will be guided through examples and hands-on exercises.
 
 <div class="container">
   <div class="flex-item"><div class="circleimg" style="background-image: url(/assets/images/anatol.jpg)"></div></div>
   <div class="flex-item"><b>Taught by</b>: Anatol Prisăcaru</div>
 </div>
 
-| <b>Level</b>        | Intermediate  |
-| <b>Commitment</b>   | 6 hours       |
-| <b>Language</b>     | Romanian      |
+| **Level**      | Intermediate      |
+| **Commitment** | 8 hours           |
+| **Date**       | 29th of July 2017 |
+| **Language**   | Romanian          |
 
 ## Syllabus
 
@@ -27,132 +28,111 @@ You will be guided through hands-on exercises throughout this course. Participat
 </div>
 <div class="expandable">
     <div class="section-header">HTTPS</div>
-    <div class="section-content">Moving onwards from unsecured HTTP connections, this section will dive into securing the previously-discussed communication. You will go through the protocol specifications for SSL/TLS, which will provide you with a good understanding of how the protocol we use today has evolved. You will also learn about certificates, how to work with them, and about the vulnerabilities that are most common in this area.</div>
+    <div class="section-content">Moving onwards, this section will dive into securing the previously-discussed communication. You will go through the protocol specifications for SSL/TLS, which will provide you with a good understanding of how the protocol we use today has evolved. You will also learn about certificates and how to work with them.</div>
 </div>
 <div class="expandable">
-    <div class="section-header">Attack types</div>
-    <div class="section-content"> This section will categorize attacks that target websites and web applications. Depending on which vulnerabilities are exploited, these attacks may focus exclusively on the server, on the client, or they may string together several approaches. It's important to be able to identify what the weak points are on either end, in order to make the most of learning how to secure them.</div>
-</div>
-<div class="expandable">
-    <div class="section-header">Intercepting proxies &amp; other tools</div>
-    <div class="section-content">In this section we will use existing tools to intercept packets sent between a client and a server. You will learn how to set up and use such tools, in a way similar to how an attacker would make use of them. Doing hand-on exercises such as this, where you attempt to attack a web application, teach you what kinds of pitfalls to avoid when securing your own deployment.</div>
+    <div class="section-header">Attack types &amp; intercepting proxies</div>
+    <div class="section-content">This section will categorize attacks that target websites, web applications, and their clients as well as the role of intercepting proxies in penetration testing. You will learn how to set up and use such tools, in a way similar to how an attacker would make use of them. Doing hand-on exercises such as this, where you attempt to attack a web application, teach you what kinds of pitfalls to avoid when developing your applications.</div>
 </div>
 <div class="expandable">
     <div class="section-header">Headers</div>
-    <div class="section-content">In this section, you will learn the meaning and semantics of some of the most common HTTP headers. These headers model the constraints on a HTTP packet exchange, and understanding how they can influence the flow of data is crucial both for building secure web applications, but also for interacting with other applications on the web, be it as a user or through scripts.</div>
+    <div class="section-content">In this section, you will learn some of the most common vulnerabilities that affect HTTP headers. These headers model the constraints on a HTTP packet exchange, and understanding how they can influence the interpretation of data.</div>
 </div>
 <div class="expandable">
-    <div class="section-header">OWASP top 10</div>
-    <div class="section-content">The Open Web Application Security Project (OWASP) is an international organization dedicated to enhancing the security of web applications. As part of its mission, OWASP sponsors numerous security-related projects, one of the most popular being the Top 10 Project. This project publishes a list of what it considers the current top 10 web application security risks worldwide. In this section, we will go through this list, the most recent version of it being from 2013.</div>
+    <div class="section-header">OWASP Top 10 overview</div>
+    <div class="section-content">The Open Web Application Security Project (OWASP) is an international organization dedicated to enhancing the security of web applications. As part of its mission, OWASP sponsors numerous security-related projects, one of the most popular being the Top 10 Project. This project publishes a list of what it considers the current top 10 web application security risks worldwide. In this section we will make an introduction and a short analysis of the </div>
 </div>
 <div class="expandable">
-    <div class="section-header">Authentication & session management</div>
-    <div class="section-content">Proving identity on the web has turned out to be a very hard problem. In this section, you will lean how both the server and the client can prove their identity to each other during a HTTPS session, as well as how this process can go wrong or can be exploited from the outside.</div>
+    <div class="section-header">Authentication &amp; Session Management</div>
+    <div class="section-content">Proving identity on the web has turned out to be a very hard problem. In this section, you will lean how both the server and the client can prove their identity to each other during a HTTP session, as well as how this process can go wrong or can be exploited from the outside.</div>
 </div>
 <div class="expandable">
     <div class="section-header">Application layer vulnerabilities</div>
     <div class="section-content">In the final section of this workshop, you will go through some of the most important vulnerabilities of websites and web applications, beyond session management and authentication. You will understand how improper implementation of the workflow of a web application can be the difference between a safe deploy and a data breach. With this information in hand, you can strengthen and protect your web deployments.</div>
 </div>
 
-## Self-assessment
-This course requires general familiarity with core web technologies such as the Internet, logins, access, and HTML. Reading knowledge of JavaScript, SQL, and programming logic is helpful but not required. Some knowledge of protocols especially TCP/IP will be helpful but not required.
+## Is this course for me?
 
-Which of the following Communication Protocols does not rely on TCP?
-XMPP
-MQTT
-BitTorrent
-HTTP
+This workshop is aimed towards application developers, application architects, penetration testers, and security professionals who are interested in learning about web application security and defensive strategies and methods.
 
-An application that reads and responds to HTTP requests from a user is commonly known as?
-HTTP Parsers
-HTML Parser
-Web Browser
-Web Server
+- Which of the following Communication Protocols does not rely on TCP?
+  - XMPP
+  - DNS
+  - HTTP
+  - NTP
 
-What does CRUD operations stand for?
-Create, Release, Unify, Destroy.
-Common, Resilient, Uninterrupted, Definitive.
-Consistent, Reliable, Universal, Dependable.
-Create, Read, Update, Delete.
+- An application that reads and responds to HTTP requests from a user is commonly known as?
+  - HTTP Parser
+  - HTML Parser
+  - Web Browser
+  - Web Server
 
-Which one of these security key concepts is equivalent to Privacy?
-confidentiality
-availability
-integrity
-access control
+- Authentication can be defined as
+  - Proving a user's identity
+  - Having the ability to do something with a computer resource
+  - Having the permission to use a resource
 
-A sender must not be able to deny sending a message that he or she, in fact, did send, is known as:
-Message Integrity
-Message Sending
-Message Confidentiality
-Message Nonrepudiation
+- Authorization can be defined as
+  - Proving a user's identity
+  - Having the ability to do something with a computer resource
+  - Having the permission to use a resource
 
-What is the difference between Message Authentication Code (MAC) and digital signature?
-digital signature is faster than MAC
-both are the same
-MAC provides confidentiality but digital signature provides integrity
-MAC uses symmetric algorithm but a digital signature use public key encryption
+- Which of the following solutions prevents cookie stealing using an XSS attack?
+  - Using the `X-XSS-Protection` header
+  - Using the `secure` flag
+  - Encrypting the cookies
+  - Using the `httpOnly` flag
 
-Access controls can be defined as:
-Proving a user’s identity
-Having the ability to do something with a computer resource
-Having the permission to use a resource
+- Which scenario is likely to allow header injection?
+  - Redirecting users to URLs from a GET parameter
+  - Sending an email to an unvalidated email address
+  - Not setting `X-Frame-Options` header
+  - Using unsanitized/untrusted input in HTML
 
-Authorization can be defined as
-Having permission to use a resource
-Proving a user’s identity
-Having the ability to do something with a resource
+- Using front-end web application frameworks protects from XSS vulnerabilities
+  - True
+  - False
 
-Authentication can be defined as
-Proving a user’s identity
-Having the ability to do something with a resource
-Having permission to use a resource
+- Consider the following code:
 
-Accountability can be defined as
-Having permission to use a resource
-Tracking a user’s actions while in a system
-Firing a user who does the wrong thing
+```js
+const exec = require('child_process').exec;
+// replace " with \"
+const imagefile = userinput.replace('"', '\\"');
+const command = 'convert "' + imagefile + '"'
+    + ' -resize 200×100 thumbnail.png';
 
+exec(command, function (err, out) {
+  if (err !== null) {
+    console.log('thumbnail error: ', err);
+  }
+});
 
-Confidentiality can be defined as
-Ensuring that information is not disclosed to unauthorized users
-Ensuring that information has not been improperly modified or destroyed
-Ensuring that information is accessible
+```
 
+Which statements about this snippet are TRUE?
 
-Integrity can be defined as
-Ensuring that information is not disclosed to unauthorized users
-Ensuring that information is accessible
-Ensuring that information has not been improperly modified or destroyed
+  - The code is safe because Node.JS is not prone to command injection vulnerabilities (like in PHP or Java)
+  - The code is safe because the argument is enclosed in double quotes and the input is sanitized
+  - The code is vulnerable to command injection because an attacker could spawn a subshell
+  - The code is vulnerable to command injection because an attacker could use the `|` (pipe) character to bypass the imposed security measures
 
-Availability can be defined as
-Ensuring that information is not disclosed to unauthorized users
-Ensuring that information has not been improperly modified or destroyed
-Ensuring that information is accessible
-
-Cryptographic system in which both sender and receiver share a common key
-Asymmetric
-Symmetric
-
-Prevents an individual from claiming he/she did not send a message
-Electronic signature
-Asymmetric cryptography
-Message digest
-Symmetric cryptography
-
+- Which of the following scenarios about CSRF are FALSE?
+  - CSRF protection can be omitted on login forms since it requires knowledge of a valid username & password pair
+  - CSRF tokens must be encrypted and stored in the database
+  - CSRF tokens should be rotated every month
+  - CSRF tokens mitigate XSS attacks
 
 ## Requirements
 
+This course requires general familiarity with web technologies such as HTML, JavaScript, SQL, and programming logic. Some knowledge of protocols especially TCP/IP will be helpful but not required.
+
+Attendance to this course also requires:
 * A laptop, running any OS with a minimum of 2 GB RAM
 * Admin rights enabled on the user which is going to be used throughout the hackathon
 * VirtualBox or VMWare Workstation
 
-## FAQs
-
-<b>Who should attend this course?</b><br>
-We believe that a working knowledge of how Web Security works is useful for any person working either as a programmer or in a security-focused profession. Even if you do not build websites or web applications, the knowledge related to how both of these can be exploited can come in handy, for example, in bug bounties or even in testing whether your most frequently used websites are vulnerable to the types of security attacks covered in this course.
-
-<b>What will you receive during this course?</b><br>
-* An Ubuntu Linux virtual machine containing pre-installed security tools;
-* Sample applications / scripts;
-* A .pdf containing all the materials used throughout the course;
+## What will you receive during this course?
+- An Ubuntu Linux virtual machine containing pre-installed security tools;
+- Sample applications / scripts;
+- All the materials used throughout the course;
