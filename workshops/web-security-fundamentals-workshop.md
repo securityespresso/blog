@@ -54,6 +54,14 @@ This course is designed to create and develop **the hacker mindset**. Participat
     <div class="section-content">In the final section of this workshop, you will go through some of the most important vulnerabilities of websites and web applications, beyond session management and authentication. You will understand how improper implementation of the workflow of a web application can be the difference between a safe deploy and a data breach. With this information in hand, you can strengthen and protect your web deployments.</div>
 </div>
 
+## Course timeline
+
+**9:00  - 10:00** Initial setup, you will receive all the materials needed for this course  
+**10:00 - 13:00** First half of the course  
+**13:00 - 14:00** Lunch! We will provide food and coffee  
+**14:00 - 17:00** Second half of the course  
+
+
 ## Is this course for me?
 
 This workshop is aimed towards application developers, application architects, penetration testers, and security professionals who are interested in learning about web application security and defensive strategies and methods.
