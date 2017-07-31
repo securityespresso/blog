@@ -26,13 +26,27 @@ article table tbody tr:first-child td {
 
 .section-header {
   text-align: left;
-  padding-left: 30px;
+  padding-left: 10px;
   margin-bottom: 15px;
   display: block;
   height: 30px;
   background: #eaeaea;
   font-weight: bold;
   cursor: pointer;
+  position: relative;
+}
+
+.section-header:before {
+  content: '+';
+  width: 1em;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.section-header.expanded:before {
+  content: '-';
 }
 
 .section-content {
