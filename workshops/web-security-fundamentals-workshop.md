@@ -10,6 +10,8 @@ This course is designed to give you a solid understanding of both the **threat m
 
 This course is designed to create and develop **the hacker mindset**. Participation is key! Throughout this course you will be guided through examples and hands-on exercises.
 
+<button class="enroll-button">Enroll now</button>
+
 <div class="container">
   <div class="flex-item"><div class="circleimg" style="background-image: url(/assets/images/anatol.jpg)"></div></div>
   <div class="flex-item"><b>Taught by</b>: Anatol Prisăcaru</div>
@@ -139,3 +141,7 @@ Attendance to this course also requires:
 - An Ubuntu Linux virtual machine containing pre-installed security tools;
 - Sample applications / scripts;
 - All the materials used throughout the course;
+
+## Enroll
+
+<div id="enroll">Insert form here</div>

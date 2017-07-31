@@ -59,3 +59,26 @@ article .text .expandable {
   margin: 10px 0 0;
   padding: 0;
 }
+
+.enroll-button {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: rgb(156, 5, 12);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+  cursor: pointer;
+}
+
+.enroll-button:hover {
+  background-color: rgb(140, 4, 10);
+}
+
+.enroll-button:active {
+  background-color: rgb(120, 3, 8);
+}
