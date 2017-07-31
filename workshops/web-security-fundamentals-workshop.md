@@ -15,10 +15,11 @@ This course is designed to create and develop **the hacker mindset**. Participat
   <div class="flex-item"><b>Taught by</b>: Anatol Prisăcaru</div>
 </div>
 
-| **Level**      | Intermediate      |
-| **Commitment** | 8 hours           |
-| **Date**       | 29th of July 2017 |
-| **Language**   | Romanian          |
+| **Level**      | Intermediate        |
+| **Date**       | 26th of August 2017 |
+| **Timeline**   | 9:00 - 17:00        |
+| **Location**   | Str. Lirei, 10      |
+| **Language**   | Romanian            |
 
 ## Syllabus
 
