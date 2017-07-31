@@ -56,6 +56,8 @@ This course is designed to create and develop **the hacker mindset**. Participat
 
 This workshop is aimed towards application developers, application architects, penetration testers, and security professionals who are interested in learning about web application security and defensive strategies and methods.
 
+Take this quiz to find out whether this course is for you! If you've answered **all** the questions correctly, you already have a solid understanding of web security. Some of these questions have multiple correct answers. Other questions have no correct answers. These are just some of the subjects which will be covered in the course.
+
 - Which of the following Communication Protocols does not rely on TCP?
   - XMPP
   - DNS
