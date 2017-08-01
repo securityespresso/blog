@@ -3,7 +3,7 @@ layout: page
 title: Web Security Fundamentals Workshop
 permalink: web-security-fundamentals-workshop.html
 ogimage: /content/images/workshop-cover.png
-css: workshops
+css: workshops.css?1#
 ---
 
 ## About this course
