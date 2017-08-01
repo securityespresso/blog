@@ -2,6 +2,7 @@
 layout: page
 title: Web Security Fundamentals Workshop
 permalink: web-security-fundamentals-workshop.html
+ogimage: /content/images/workshop-cover.png
 css: workshops
 ---
 
@@ -66,76 +67,6 @@ This course is designed to create and develop **the hacker mindset**. Participat
 
 This workshop is aimed towards application developers, application architects, penetration testers, and security professionals who are interested in learning about web application security and defensive strategies and methods.
 
-Take this quiz to find out whether this course is for you! If you've answered **all** the questions correctly, you already have a solid understanding of web security. Some of these questions have multiple correct answers. Other questions have no correct answers. These are just some of the subjects which will be covered in the course.
-
-- Which of the following Communication Protocols does not rely on TCP?
-  - XMPP
-  - DNS
-  - HTTP
-  - NTP
-
-- An application that reads and responds to HTTP requests from a user is commonly known as?
-  - HTTP Parser
-  - HTML Parser
-  - Web Browser
-  - Web Server
-
-- Authentication can be defined as
-  - Proving a user's identity
-  - Having the ability to do something with a computer resource
-  - Having the permission to use a resource
-
-- Authorization can be defined as
-  - Proving a user's identity
-  - Having the ability to do something with a computer resource
-  - Having the permission to use a resource
-
-- Which of the following solutions prevents cookie stealing using an XSS attack?
-  - Using the `X-XSS-Protection` header
-  - Using the `secure` flag
-  - Encrypting the cookies
-  - Using the `httpOnly` flag
-
-- Which scenario is likely to allow header injection?
-  - Redirecting users to URLs from a GET parameter
-  - Sending an email to an unvalidated email address
-  - Not setting `X-Frame-Options` header
-  - Using unsanitized/untrusted input in HTML
-
-- Using front-end web application frameworks protects from XSS vulnerabilities
-  - True
-  - False
-
-- Consider the following code:
-
-```js
-const exec = require('child_process').exec;
-// replace " with \"
-const imagefile = userinput.replace('"', '\\"');
-const command = 'convert "' + imagefile + '"'
-    + ' -resize 200×100 thumbnail.png';
-
-exec(command, function (err, out) {
-  if (err !== null) {
-    console.log('thumbnail error: ', err);
-  }
-});
-
-```
-
-Which statements about this snippet are TRUE?
-
-  - The code is safe because Node.JS is not prone to command injection vulnerabilities (like in PHP or Java)
-  - The code is safe because the argument is enclosed in double quotes and the input is sanitized
-  - The code is vulnerable to command injection because an attacker could spawn a subshell
-  - The code is vulnerable to command injection because an attacker could use the `|` (pipe) character to bypass the imposed security measures
-
-- Which of the following scenarios about CSRF are FALSE?
-  - CSRF protection can be omitted on login forms since it requires knowledge of a valid username & password pair
-  - CSRF tokens must be encrypted and stored in the database
-  - CSRF tokens should be rotated every month
-  - CSRF tokens mitigate XSS attacks
-
 ## Requirements
 
 This course requires general familiarity with web technologies such as HTML, JavaScript, SQL, and programming logic. Some knowledge of protocols especially TCP/IP will be helpful but not required.
@@ -152,4 +83,6 @@ Attendance to this course also requires:
 
 ## Enroll
 
-<div id="enroll">Insert form here</div>
+<div id="enroll" style="width:100%; text-align:left; margin: 50px 0;">
+  <iframe src="//eventbrite.com/tickets-external?eid=36667076212&ref=etckt" frameborder="0" height="400" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+</div>
