@@ -24,7 +24,7 @@ This course is designed to create and develop **the hacker mindset**. Participat
 | **Level**      | Intermediate        |
 | **Date**       | 26th of August 2017 |
 | **Timeline**   | 9:00 - 17:00        |
-| **Location**   | Str. Lirei, 10      |
+| **Location**   | Str. Lirei 10       |
 | **Language**   | Romanian            |
 
 ## Syllabus
@@ -65,10 +65,88 @@ This course is designed to create and develop **the hacker mindset**. Participat
 **13:00 - 14:00** Lunch! We will provide food and coffee  
 **14:00 - 17:00** Second half of the course  
 
-
 ## Is this course for me?
 
 This workshop is aimed towards application developers, application architects, penetration testers, and security professionals who are interested in learning about web application security and defensive strategies and methods.
+
+**Take this self-assessment test** to find out whether this course is for you! If you've answered all the questions correctly, you probably already have a solid understanding of web security. These are just some of the subjects which will be covered in the course. The questions in this test may have **multiple or no correct answers**.
+
+<div class="quiz">
+    <div class="question"></div>
+    <ul class="answers"></ul>
+    <div class="quiz-footer">
+        <span class="status"></span>
+        <button class="submit">submit</button>
+    </div>
+</div>
+
+- An application that reads and responds to HTTP requests from a user is commonly known as?
+  - HTTP Parser
+  - HTML Parser
+  - Web Browser
+  - Web Server <span class="correct"></span>
+
+- Which of the following Communication Protocols does not rely on TCP?
+  - XMPP
+  - DNS
+  - HTTP
+  - NTP <span class="correct"></span>
+
+- Which of the following solutions prevents cookie stealing using an XSS attack?
+  - Using the `X-XSS-Protection` header
+  - Using the `secure` flag
+  - Encrypting the cookies
+  - Using the `httpOnly` flag <span class="correct"></span>
+
+- Authentication can be defined as
+  - Proving a user's identity <span class="correct"></span>
+  - Having the ability to do something with a computer resource
+  - Having the permission to use a resource
+
+- Authorization can be defined as
+  - Proving a user's identity
+  - Having the ability to do something with a computer resource
+  - Having the permission to use a resource <span class="correct"></span>
+
+- Which scenario is likely to allow header injection?
+  - Redirecting users to URLs from a GET parameter <span class="correct"></span>
+  - Sending an email to an unvalidated email address
+  - Not setting `X-Frame-Options` header
+  - Using unsanitized/untrusted input in HTML
+
+- Using front-end web application frameworks totally protects from XSS vulnerabilities
+  - True
+  - False <span class="correct"></span>
+
+- Which of the following scenarios about CSRF are FALSE?
+  - CSRF protection can be omitted on login forms since it requires knowledge of a valid username & password pair <span class="correct"></span>
+  - CSRF tokens must be encrypted and stored in the database <span class="correct"></span>
+  - CSRF tokens should be rotated every month <span class="correct"></span>
+  - CSRF tokens mitigate XSS attacks <span class="correct"></span>
+
+- Consider the following code:
+
+  ```js
+  const exec = require('child_process').exec;
+  // replace " with \"
+  const imagefile = userinput.replace('"', '\\"');
+  const command = 'convert "' + imagefile + '"'
+      + ' -resize 200×100 thumbnail.png';
+
+  exec(command, function (err, out) {
+    if (err !== null) {
+      console.log('thumbnail error: ', err);
+    }
+  });
+
+  ```
+
+  Which statements about this snippet are TRUE?
+
+  - The code is safe because Node.JS is not prone to command injection vulnerabilities (like in PHP or Java)
+  - The code is safe because the argument is enclosed in double quotes and the input is sanitized
+  - The code is vulnerable to command injection because an attacker could spawn a subshell <span class="correct"></span>
+  - The code is vulnerable to command injection because an attacker could use the `|` (pipe) character to bypass the imposed security measures
 
 ## Requirements
 
