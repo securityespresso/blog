@@ -761,7 +761,7 @@ article.image {
 }
 body.user>header {
     position: relative;
-    margin-bottom: 80px
+    margin-bottom: 40px
 }
 body.user>header .wrap {
     display: -moz-inline-stack;
@@ -1571,4 +1571,11 @@ body.touch.user article .readmore {
     body.noimage article {
         margin-top: 24px
     }
+}
+
+.site-nav {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 28px;
 }

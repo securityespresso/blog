@@ -2,6 +2,9 @@
 layout: page
 title: Web Security Fundamentals Workshop
 permalink: web-security-fundamentals-workshop.html
+published: true
+in_header: true
+emoji: 💻
 ogimage: /content/images/workshop-cover.png
 css: workshops.css?1#
 ---
@@ -73,7 +76,7 @@ This course requires general familiarity with web technologies such as HTML, Jav
 
 Attendance to this course also requires:
 * A laptop, running any OS with a minimum of 4 GB RAM
-* Admin rights enabled on the user which is going to be used throughout the hackathon
+* Admin rights enabled on the user which is going to be used throughout the workshop
 * VirtualBox or VMWare Workstation
 
 ## What will you receive during this course?
