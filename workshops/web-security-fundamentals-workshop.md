@@ -165,5 +165,5 @@ Attendance to this course also requires:
 ## Enroll
 
 <div id="enroll" style="width:100%; text-align:left; margin: 50px 0;">
-  <iframe src="//eventbrite.com/tickets-external?eid=36667076212&ref=etckt" frameborder="0" height="400" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+  <iframe src="https://eventbrite.com/tickets-external?eid=36667076212&ref=etckt" frameborder="0" height="400" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
 </div>
