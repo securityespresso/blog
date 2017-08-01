@@ -1,10 +1,10 @@
 title: "Security Espresso"
 logo: logo-horizontal.png
 logo_square: logo.png
-email: securityespresso@shark0der.com
+email: contact@securityespresso.com
 description: Security for developers
 
-#url: "https://securityespresso.org" # the base hostname & protocol for your site
+url: "https://securityespresso.org" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 github_username:  securityespresso
 #twitter_username: jekyllrb
