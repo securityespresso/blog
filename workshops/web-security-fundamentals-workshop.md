@@ -168,30 +168,8 @@ Attendance to this course also requires:
   <iframe src="https://eventbrite.com/tickets-external?eid=36667076212&ref=etckt" frameborder="0" height="400" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
 </div>
 
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId: "1973586539591624",
-      xfbml: true,
-      version: "v2.6"
-    });
-  };
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) { return; }
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
-
 ## Got questions?
 
 If you have any question, you can drop us a line via email at <a href="mailto:workshop&#x40;securityespresso.org">workshop&#x40;securityespresso.org</a> or write us on Facebook:
 
-<div class="fb-messengermessageus" 
-  messenger_app_id="1973586539591624" 
-  page_id="791388721013602"
-  color="blue"
-  size="xlarge" >
-</div>
+<a href="https://m.me/791388721013602" title="Write us on Facebook" target="_blank" id="messageus">Message Us</a>
