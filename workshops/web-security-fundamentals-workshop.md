@@ -6,6 +6,7 @@ published: true
 in_header: true
 emoji: 💻
 ogimage: /content/images/workshop-cover.png
+ogimagealt: /content/images/workshop-promo.png
 css: workshops.css?2#
 ---
 
