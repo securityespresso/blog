@@ -3,7 +3,7 @@ layout: page
 title: Web Security Fundamentals Workshop
 permalink: web-security-fundamentals-workshop.html
 published: true
-in_header: true
+in_header: false
 emoji: 💻
 ogimage: /content/images/workshop-cover.png
 ogimagealt: /content/images/workshop-promo.png
