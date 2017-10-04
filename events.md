@@ -9,6 +9,9 @@ emoji: ☕
 
 All the Security Espresso meetups and events are listed below.
 
+## [Security Espresso 0x08](/security-espresso-0x08.html)
+28th of September, 2017
+
 ## [Security Espresso 0x07](/security-espresso-0x07.html)
 23th of August, 2017
 
