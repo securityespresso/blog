@@ -1,26 +1,31 @@
 ---
-title: [Translation] CVE-2017-7089: Chrome and Safari UXSS
+title: Chrome and Safari UXSS (translation)
 layout: post
 date: '2017-11-14 16:30:00 +0000'
 categories: translations
 image: browsers-it.png
 ---
-**Editor's note: This is a translation of the following article [bo0om.ru/chrome-and-safari-uxss](https://bo0om.ru/chrome-and-safari-uxss).  
-Original title: A comic about UXSS in Safari and Chrome**
 
-Hello! In addition to the vulnerabilities and the client side of the webapps, a security risk is introduced by the client side software itself. No, we're not talking about java or flash, we're talking about browsers themselves.
+Hello! In addition to client side vulnerabilities in webapps, a security risk is introduced by the client side *software* itself. No, we're not talking about Java or Flash, we're talking about the browsers themselves.
 
-I want to show you examples in two competing browsers with an UXSS (Universal Cross-site Scripting), one of them being closed source, and the other open source. UXSS is a flaw in a browser' logic, which allows an attacker to execute arbitrary JavaScript on arbitrary sites, in other words - perform an XSS attack there where it's missing.
+I want to show you examples in two competing browsers with an UXSS (Universal Cross-site Scripting), one of them being closed source, and the other open source. UXSS is a flaw in a browser' logic, which allows an attacker to execute arbitrary JavaScript on arbitrary sites, in other words - perform an XSS attack where there're none.
 
 ## Safari
 
 What good things can I say about Safari? It's a simple, lightweight browser without any bloat. To be fair, it's the fastest browser that I have used. What's wrong with that? Well... Safari's weird.
 
-Perhaps you've already read my article about [reading local files (ru)](https://xakep.ru/2017/07/06/safari-localfile-read/) using the browser. Briefly - by opening [the following HTML](https://bo0om.ru/safari_poc/) file in Safari it will read files on the local machine and will try to leak it out, in the PoC - to the same local machine (you'll see the errors in the dev tools).
+Perhaps you've already read my article about [reading local files (in russian)](https://xakep.ru/2017/07/06/safari-localfile-read/) using the browser. Briefly - by opening [the following HTML](https://bo0om.ru/safari_poc/) file in Safari it will read files on the local machine and will try to leak them out, in the PoC - to the same local machine (you'll see the errors in the developer console).
 
 More than this, the functions in the console are executed while writing them - horror!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Imt4N7xP12w" frameborder="0" gesture="media" allowfullscreen></iframe>
+<style type="text/css">
+    .video-container-youtube { border-radius: 3px; overflow: hidden; position: relative; height: 0; padding-bottom: 56.25% }
+    .video-container-youtube iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+</style>
+
+<div class="video-container-youtube">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Imt4N7xP12w" frameborder="0" gesture="media" allowfullscreen></iframe>
+</div>
 
 But what did you hear about the pseudo-extension `parent-tab://`? Yes, nothing, only a few reminders. However it is present in Safari.
 
@@ -30,7 +35,7 @@ Noteworthy, until the 11th version (already), parent-tab has still the same acce
 
 ![parent-tab-apple]({{ site.baseurl }}/content/images/parent-tab-apple.png)
 
-What's even way cooler than this - you can write into it. You can just create a local HTML file, write `<iframe>` with parent-tab and using JavaScript you can write arbitrary contents to it! That's how the first exploit is born, where `parent-tab.html` is a redirect to `parent-tab://+domain`.
+What's even way cooler than this - you can write them as well. You can just create a local HTML file, write `<iframe>` with parent-tab and using JavaScript you can write arbitrary contents to it! That's how the first exploit is born, where `parent-tab.html` is a redirect to `parent-tab://+domain`.
 
 ![first_exploit]({{ site.baseurl }}/content/images/first_exploit.png)
 
@@ -38,7 +43,7 @@ However, you cannot call it from another site, which is a bit saddening. Local e
 
 ![bo0om-apple]({{ site.baseurl }}/content/images/bo0om-apple.png)
 
-Here [Frans Rosén](https://twitter.com/fransrosen) comes to the rescue, who figured out that you can also write your payload using `window.open` with the `_top` argument. Wooh - and we get access to site data.
+Here [Frans Rosén](https://twitter.com/fransrosen) comes to the rescue, who figured out that you can also write your payload using `window.open` with the `_top` argument. Whoosh - and we get access to site data.
 
 ![safari_uxss]({{ site.baseurl }}/content/images/safari_uxss.png)
 
@@ -100,8 +105,10 @@ In order to open `MHTML`, we have to set the content type in the server's respon
 
 Chrome applied the coresponding patch (thanks to which the exploit was found). Pros - open source software allows one to monitor the changes. Cons: the same.
 
-A proof of concept is available here (Chrome < 62), the source code for [CVE-2017-5124 on GitHub](https://github.com/Bo0oM/CVE-2017-7089).
+A proof of concept is available here (Chrome < 62), the source code for [CVE-2017-5124 on GitHub](https://github.com/Bo0oM/CVE-2017-5124).
 
 ## Conclusion
 
-What conclusion? Well, be more careful, update your software to minimze the risks, but you've already heard this thousands of times. There's nothing new I can tell you :).
+What conclusion? Well, be more careful, update your software to minimize the risks, but you've already heard this thousands of times. There's nothing new I can tell you :).
+
+**Editor's note: This is a translation of the following article [bo0om.ru/chrome-and-safari-uxss](https://bo0om.ru/chrome-and-safari-uxss).**
