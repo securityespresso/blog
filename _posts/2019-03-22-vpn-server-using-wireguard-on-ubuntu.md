@@ -6,6 +6,8 @@ categories: tutorials
 image: wireguard-on-laptop.jpg
 ---
 
+**Update**: If you want to get in touch with other WireGuard enthusiasts you can do so by joining our Telegram group [@WireGuardSuperHeroes](https://t.me/WireGuardSuperHeroes). Please keep in mind that this is not an official support group and people offering help are doing it on their own time.
+
 Perhaps you've heard of WireGuard - the new VPN protocol that utilizes state-of-the-art cryptography. It's super fast, extremely simple and considerably more performant than OpenVPN. A VPN will protect you against [Man-in-the-Middle attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) (especially if you're using public WiFi networks, even if they are password protected), guard your privacy against ISPs that are snooping into your traffic and selling your data, and will help prevent censorship in countries where digital freedom is restricted.
 
 Personally, I've been blown away by its features! My jaw dropped when I saw that it establishes the connection in less than 100ms. WireGuard works over UDP (by default on port 51820) has a very simple handshake that occurs every few minutes in order to ensure perfect forward secrecy. It has IP roaming support so you can simply disconnect from a WiFi and connect to another and it will simply work. Imagine this: I put my laptop in sleep mode when I leave my office and when I open it at home my ssh sessions are still alive and I can use them right away! The codebase itself is very clean and Linus himself expressed his willingness to see the WireGuard in the Linux kernel soon. The authentication between peers works using Curve25519 key pairs for ECDH.
