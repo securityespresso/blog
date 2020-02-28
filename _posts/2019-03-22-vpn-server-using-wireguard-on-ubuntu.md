@@ -20,7 +20,7 @@ Heads up: This tutorial was tested using a Ubuntu 18.04 server, although it shou
 
 First of all, you'll need a VPS that you will use as a VPN server. WireGuard is very lightweight so the cheapest VPS that has a public IPv4 will be probably more than enough.
 
-**Tip**: If you don't have a VPS provider you can [sign up for an account at Vultr](https://www.vultr.com/?ref=7797536-4F). By using this referral link you get free 50$ which practically gives you a 5$ VPS for 10 months for free at the time of writing this article.
+**Tip**: If you don't have a VPS provider you can [sign up for an account at Vultr](https://www.vultr.com/?ref=8387836-6G). By using this referral link you get free 100$ (at the time of writing this article) which allows it to spin up a few machines and test your setup for free!
 
 After signing up create an Ubuntu 18.04 VPS in a region of your preference. If you don't know which to choose - pick one that's geographically closer to you. You can tick the IPv6 checkbox if you want to be able to access IPv6 through the VPN as well.
 
